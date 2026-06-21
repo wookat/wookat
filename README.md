@@ -1,10 +1,10 @@
-<p align="center">
-  <img src="./assets/glassmorphism-hero.svg" alt="wookat — studio portrait" width="100%" />
-</p>
+<div align="center">
+  <img src="https://samdev-pulse.vercel.app/api/profile?username=wookat&theme=tokyonight&align=center" alt="wookat — GitHub Dashboard" width="100%" />
+</div>
 
 ---
 
-### approach
+### about
 
 把复杂的 AI 技术变成好用的工具。从语音驱动的 AI 绘画到 Schema 驱动的剧本改编，从模型训练自动化到桌面开发工具，每个项目都追求工程化、可验证、可继续打磨。
 
