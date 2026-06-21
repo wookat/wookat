@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520" role="img" aria-label="wookat — terminal">
+  <defs>
+    <filter id="term-glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="term-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+      <feOffset dy="8"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Terminal window shadow -->
+  <rect x="40" y="30" width="800" height="460" rx="12" fill="#000" opacity="0.3" filter="url(#term-shadow)"/>
+
+  <!-- Terminal body -->
+  <rect x="40" y="30" width="800" height="460" rx="12" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="30" width="800" height="36" rx="12" fill="#161b22"/>
+  <rect x="40" y="54" width="800" height="12" fill="#161b22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="60" cy="48" r="6" fill="#ff5f56"/>
+  <circle cx="80" cy="48" r="6" fill="#ffbd2e"/>
+  <circle cx="100" cy="48" r="6" fill="#27c93f"/>
+
+  <!-- Title -->
+  <text x="440" y="52" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#8b949e">wookat@github: ~/profile</text>
+
+  <!-- Terminal content -->
+  <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" fill="#c9d1d9">
+
+    <!-- Line 1: prompt + whoami -->
+    <text x="64" y="92">
+      <tspan fill="#7ee787">wookat@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~/profile</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">whoami</tspan>
+    </text>
+
+    <!-- Line 2: output -->
+    <text x="80" y="116" fill="#8b949e">→ AI 应用工程化 · 创意工具开发 · 全栈</text>
+
+    <!-- Line 3: empty -->
+    <text x="64" y="148" fill="#8b949e">$</text>
+
+    <!-- Line 4: cat skills.txt -->
+    <text x="64" y="172">
+      <tspan fill="#7ee787">wookat@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~/profile</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">cat skills.txt</tspan>
+    </text>
+
+    <!-- Skills output with colored badges -->
+    <text x="80" y="196">
+      <tspan fill="#a371f7">python</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#79c0ff">typescript</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#dea584">rust</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#42b883">vue</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#61dafb">react</tspan>
+    </text>
+    <text x="80" y="220">
+      <tspan fill="#009688">fastapi</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#ee4c2c">pytorch</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#24c8d8">tauri</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#646cff">vite</tspan><tspan fill="#8b949e">  </tspan>
+      <tspan fill="#06b6d4">tailwind</tspan>
+    </text>
+
+    <!-- Line: empty -->
+    <text x="64" y="252" fill="#8b949e">$</text>
+
+    <!-- Line: ls projects/ -->
+    <text x="64" y="276">
+      <tspan fill="#7ee787">wookat@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~/profile</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">ls projects/</tspan>
+    </text>
+
+    <!-- Projects output -->
+    <text x="80" y="304">
+      <tspan fill="#f0883e" font-weight="bold">ai-paint-voice/</tspan><tspan fill="#8b949e">    </tspan><tspan fill="#c9d1d9">语音控制 AI 绘图，多模型智能体</tspan>
+    </text>
+    <text x="80" y="328">
+      <tspan fill="#f0883e" font-weight="bold">ScriptForge/</tspan><tspan fill="#8b949e">       </tspan><tspan fill="#c9d1d9">AI 小说转结构化剧本工作台</tspan>
+    </text>
+    <text x="80" y="352">
+      <tspan fill="#f0883e" font-weight="bold">taiji-skills/</tspan><tspan fill="#8b949e">      </tspan><tspan fill="#c9d1d9">Agent-first 模型训练管理</tspan>
+    </text>
+    <text x="80" y="376">
+      <tspan fill="#f0883e" font-weight="bold">DevCleaner/</tspan><tspan fill="#8b949e">       </tspan><tspan fill="#c9d1d9">IDE 缓存清理，Rust + Tauri</tspan>
+    </text>
+    <text x="80" y="400">
+      <tspan fill="#f0883e" font-weight="bold">SeatMark/</tspan><tspan fill="#8b949e">        </tspan><tspan fill="#c9d1d9">考场座位标签生成器</tspan>
+    </text>
+    <text x="80" y="424">
+      <tspan fill="#f0883e" font-weight="bold">TAAC/</tspan><tspan fill="#8b949e">            </tspan><tspan fill="#c9d1d9">腾讯广告算法大赛 2026</tspan>
+    </text>
+
+    <!-- Blinking cursor -->
+    <text x="64" y="460">
+      <tspan fill="#7ee787">wookat@github</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~/profile</tspan><tspan fill="#8b949e">$ </tspan>
+    </text>
+    <rect x="195" y="448" width="9" height="16" fill="#7ee787">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+
+  <!-- Scanline overlay -->
+  <rect x="40" y="30" width="800" height="460" rx="12" fill="#0d1117" opacity="0.03"/>
+  <g opacity="0.04">
+    <line x1="40" y1="66" x2="840" y2="66" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="98" x2="840" y2="98" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="130" x2="840" y2="130" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="162" x2="840" y2="162" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="194" x2="840" y2="194" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="226" x2="840" y2="226" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="258" x2="840" y2="258" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="290" x2="840" y2="290" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="322" x2="840" y2="322" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="354" x2="840" y2="354" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="386" x2="840" y2="386" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="418" x2="840" y2="418" stroke="#fff" stroke-width="0.5"/>
+    <line x1="40" y1="450" x2="840" y2="450" stroke="#fff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Border -->
+  <rect x="40" y="30" width="800" height="460" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+</svg>
