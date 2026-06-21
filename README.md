@@ -83,14 +83,7 @@ DevOps:     GitHub Actions CI · Trunk-based Development
 
 ---
 
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=wookat&show_icons=true&theme=default&count_private=true" alt="GitHub Stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wookat&layout=compact&theme=default" alt="Top Languages">
-
----
-
-## 📫 Connect
+##  Connect
 
 - GitHub: [@wookat](https://github.com/wookat)
 - Bilibili: [wookat 的视频主页](https://www.bilibili.com/video/BV1g5Et6GE7M/)
