@@ -39,7 +39,7 @@
     </text>
 
     <!-- Line 2: output -->
-    <text x="80" y="116" fill="#8b949e">→ AI 应用工程化 · 创意工具开发 · 全栈</text>
+    <text x="80" y="116" fill="#8b949e">→ AI 产品开发 · 全栈工程 · 开源工具</text>
 
     <!-- Line 3: empty -->
     <text x="64" y="148" fill="#8b949e">$</text>
@@ -75,22 +75,22 @@
 
     <!-- Projects output -->
     <text x="80" y="304">
-      <tspan fill="#f0883e" font-weight="bold">ai-paint-voice/</tspan><tspan fill="#8b949e">    </tspan><tspan fill="#c9d1d9">语音控制 AI 绘图，多模型智能体</tspan>
+      <tspan fill="#f0883e" font-weight="bold">Patent Studio/</tspan><tspan fill="#8b949e">  </tspan><tspan fill="#c9d1d9">AI 专利工作台 · 公开自部署版</tspan>
     </text>
     <text x="80" y="328">
-      <tspan fill="#f0883e" font-weight="bold">ScriptForge/</tspan><tspan fill="#8b949e">       </tspan><tspan fill="#c9d1d9">AI 小说转结构化剧本工作台</tspan>
+      <tspan fill="#f0883e" font-weight="bold">CodeStamp/</tspan><tspan fill="#8b949e">      </tspan><tspan fill="#c9d1d9">软著材料整理与校验平台</tspan>
     </text>
     <text x="80" y="352">
-      <tspan fill="#f0883e" font-weight="bold">taiji-skills/</tspan><tspan fill="#8b949e">      </tspan><tspan fill="#c9d1d9">Agent-first 模型训练管理</tspan>
+      <tspan fill="#f0883e" font-weight="bold">VidGen/</tspan><tspan fill="#8b949e">         </tspan><tspan fill="#c9d1d9">AI 短剧 · 分镜与视频工作流</tspan>
     </text>
     <text x="80" y="376">
-      <tspan fill="#f0883e" font-weight="bold">DevCleaner/</tspan><tspan fill="#8b949e">       </tspan><tspan fill="#c9d1d9">IDE 缓存清理，Rust + Tauri</tspan>
+      <tspan fill="#f0883e" font-weight="bold">TicketRadar/</tspan><tspan fill="#8b949e">    </tspan><tspan fill="#c9d1d9">演出官宣与开票提醒</tspan>
     </text>
     <text x="80" y="400">
-      <tspan fill="#f0883e" font-weight="bold">SeatMark/</tspan><tspan fill="#8b949e">        </tspan><tspan fill="#c9d1d9">考场座位标签生成器</tspan>
+      <tspan fill="#f0883e" font-weight="bold">GiftArena/</tspan><tspan fill="#8b949e">      </tspan><tspan fill="#c9d1d9">直播互动游戏 · 实时事件链路</tspan>
     </text>
     <text x="80" y="424">
-      <tspan fill="#f0883e" font-weight="bold">TAAC/</tspan><tspan fill="#8b949e">            </tspan><tspan fill="#c9d1d9">腾讯广告算法大赛 2026</tspan>
+      <tspan fill="#f0883e" font-weight="bold">SpeakType/</tspan><tspan fill="#8b949e">      </tspan><tspan fill="#c9d1d9">开源桌面 AI 语音输入</tspan>
     </text>
 
     <!-- Blinking cursor -->
